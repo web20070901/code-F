@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wangyulong.GearMapper">
+
+
+    <select id="queryGearById" resultType="com.wangyulong.dto.GearDTO">
+        select gear_id ,gear_name from tb_gear where gear_id =#{id};
+     </select>
+
+    <select id="queryGearAll" resultType="com.wangyulong.dto.GearDTO">
+        select gear_id ,gear_name from tb_gear;
+     </select>
+</mapper>
