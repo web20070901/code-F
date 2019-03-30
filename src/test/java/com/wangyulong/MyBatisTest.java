@@ -12,6 +12,9 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
+/**
+ * 测试信息，测试上传是否成功
+ */
 public class MyBatisTest {
 
     @Test
