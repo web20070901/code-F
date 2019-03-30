@@ -14,6 +14,11 @@ import java.util.List;
 
 /**
  * 测试信息，测试上传是否成功
+ * verion1.2
+ */
+
+/**
+ * 这是更新版version1.2
  */
 public class MyBatisTest {
 
